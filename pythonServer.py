@@ -21,4 +21,11 @@ while run:
 	except:
 		connectionSocket.send('404 NOT FOUND')
 		connectionSocket.close()
+	# If the `q` key is pressed, break from the lop
+	if key == ord("q"):
+		# Closing application
+		# Maybe provide some output when done
+		# Can provide a list of datapoints that can be overlayed any image 
+		# Or plotted
+		break
 	
