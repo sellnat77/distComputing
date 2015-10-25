@@ -33,7 +33,6 @@ int main(int argc, char *argv[]){
 	int timeOut;
 	int producers;
 	int consumers;
-	s
 	int k;
 	
 	if (argc < 2){
