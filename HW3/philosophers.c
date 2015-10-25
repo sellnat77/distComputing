@@ -76,7 +76,7 @@ void *thinkingPhil(void *param){
 			printf("Philosopher ERROR");
 		}
 		else{
-			printf("\n\Philosopher put down a chopstick");
+			printf("\nPhilosopher put down a chopstick");
 		}
 		//Release lock and increment full because
 		//there's 1 more value in the buffer
@@ -101,7 +101,7 @@ void *eatingPhil(void *param){
 			printf("Philosopher ERROR");
 		}
 		else{
-			printf("\n\t\t\t\Philosopher grabbed a chopstick");
+			printf("\n\t\t\tPhilosopher grabbed a chopstick");
 		}
 		
 		//Release lock and inc.empty because
